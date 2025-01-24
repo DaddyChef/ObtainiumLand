@@ -7,8 +7,8 @@ window.onload = function () {
 
     const config = {
         type: Phaser.AUTO,
-        width: 1024,     // Adjusted resolution for better visibility
-        height: 768,    // Adjusted resolution for better visibility
+        width: 360,     // Adjusted resolution for better visibility
+        height: 640,    // Adjusted resolution for better visibility
         scene: {
             preload: preload,
             create: create,

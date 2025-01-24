@@ -5,7 +5,7 @@ const fetch = require('node-fetch');
 const app = express();
 const PORT = process.env.PORT || 3000;
 const TELEGRAM_BOT_TOKEN = '8191661883:AAEZnLpX6SHVDpyZ09tIXqn6xS3s_9sSTZs';
-const GAME_URL = 'http://localhost/Obtainium%20Land/index.html';
+const GAME_URL = 'http://localhost/ObtainiumLand/index.html';
 app.use(bodyParser.json());
 
 app.post(`/webhook/${TELEGRAM_BOT_TOKEN}`, (req, res) => {
